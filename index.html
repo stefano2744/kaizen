@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Show Image</title>
+    <style>
+        #photo {
+            display: none; /* Hidden at first */
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="showPhoto()">Show Photo</button>
+
+    <img id="photo" src="Son😭.png.PNG" alt="Photo">
+
+    <script>
+        function showPhoto() {
+            document.getElementById("photo").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
